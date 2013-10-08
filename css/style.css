@@ -1,0 +1,61 @@
+@import url('reset.css');
+
+html {
+	font-family: 'Oswald', sans-serif;
+}
+div {
+	width: 60%;
+	margin: 15px auto;
+	-webkit-box-shadow: 0px 0px 22px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 22px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 22px rgba(50, 50, 50, 0.75);
+	max-width: 1006px;
+}
+
+#logo {
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 8em;
+	font-weight: bold;
+	display: inline;
+	line-height: 225px;
+}
+
+.pull-left {
+	float: left;
+}
+
+.purple {
+	color: #39275B;
+}
+
+nav {
+	text-align: center;
+}
+nav ul {
+	background:black;
+}
+
+nav li {
+	list-style: none;
+	color: white;
+	font-size: 2em;
+	display: inline;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+
+nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
+nav a:hover {
+	color: #D8AA03;
+};
