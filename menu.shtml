@@ -17,6 +17,7 @@
 		</main>
 		<section id="meatpies" class="food">
 			<h4>Meat Pies:</h4>
+			<!-- used dictionary to define menu items and pricing -->
 			<dl>
 				<dt>Classic Pepperoni</dt>
             	<dd>Pepperoni and Mozzarella on our Spicy Tomato Sauce.<span class="pricing">$10/$13/$16</span></dd>
@@ -32,6 +33,7 @@
 		</section>
 		<section id="vegpies" class="food">
 			<h4>Vegetarian Pies:</h4>
+			<!-- used dictionary to define menu items and pricing -->
 			<dl>
 				<dt>Margherita</dt>
             	<dd>Mozzarella, Basil, Salt on an Olive Oil Base.<span class="pricing">$10/$13/$16</span></dd>
@@ -47,12 +49,14 @@
 		</section>
 		<section id="drinks" class="food">
 			<h4>Drinks:</h4>
+			<!-- no definition, so didn't use dictionary -->
 			<h5>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can</h5><span class="pricing">($4)</span>
     		<h5>Rainier Beer by the can</h5><span class="pricing">($4)</span>
     		<h5>House Red Wine by the glass or bottle</h5><span class="pricing">($10/$40)</span>
 		</section>
 		<section id="dessert" class="food">
 			<h4>Dessert:</h4>
+			<!-- no definition, so didn't use dictionary -->
 			<h5>Chocolate Gelato</h5><span class="pricing">($8)</span>
     		<h5>Lemon Sorbet</h5><span class="pricing">($7)</span>
     		<h5>Ricotta Cheese Cake</h5><span class="pricing">($10)</span>
