@@ -13,7 +13,7 @@
 		    <span id="med-pizza">Medium (14")</span>
 		    <span id="big-pizza">Large (17")</span></pre>
 		    <br>
-			<h5 id="custom" class="bigwords">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</h5>
+			<h5 id="custom">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</h5>
 		</main>
 		<section id="meatpies" class="food">
 			<h4>Meat Pies:</h4>

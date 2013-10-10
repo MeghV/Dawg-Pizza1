@@ -1,6 +1,6 @@
 @import url('reset.css');
 
-/* General rules */
+/* General styles */
 
 html {
 	font-family: 'Oswald', sans-serif;
@@ -31,8 +31,12 @@ a {
 	color: black;
 }
 
-a:hover {
+.column a:hover {
 	color: white;
+}
+
+footer {
+	background: black;
 }
 
 address {
@@ -45,30 +49,6 @@ address {
 	line-height: 130%;
 }
 
-.main-content {
-	width: 60%;
-	margin: 15px auto;
-	-webkit-box-shadow: 0px 0px 20px rgba(235, 235, 235, 0.75);
-	-moz-box-shadow:    0px 0px 20px rgba(235, 235, 235, 0.75);
-	box-shadow:         0px 0px 20px rgba(235, 235, 235, 0.75);
-	max-width: 1006px;
-	background: white;
-}
-
-#logo {
-	vertical-align: middle;
-}
-
-
-
-.pull-left {
-	float: left;
-}
-
-.purple {
-	color: #39275B;
-}
-
 nav {
 	text-align: center;
 }
@@ -79,23 +59,85 @@ nav ul {
 
 ul li {
 	list-style: none;
-	color: white;
 	font-size: 2em;
-	display: inline;
+	display: inline-block;
 	margin: 0 auto;
 	padding: 0 50px;
 }
-
 
 ul a {
 	display: inline-block;
 	color: white;
 	padding: 10px;
-
 }
 
-nav a:hover {
-	color: #D8AA03;
+#contact-info li,
+#contact-info a {
+	color: black;
+	padding: 0px;
+	display: block;
+}
+
+#contact-info {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+footer p {
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+/* Main div styling */
+
+.main-content {
+	width: 60%;
+	margin: 15px auto;
+	-webkit-box-shadow: 0px 0px 20px rgba(235, 235, 235, 0.75);
+	-moz-box-shadow:    0px 0px 20px rgba(235, 235, 235, 0.75);
+	box-shadow:         0px 0px 20px rgba(235, 235, 235, 0.75);
+	max-width: 1006px;
+	background: white;
+}
+
+/* Positioning images */
+
+#logo {
+	vertical-align: middle;
+}
+
+.pull-left {
+	float: left;
+}
+
+.bottom-pic {
+	width: 100%;
+	height: 345px;
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+/* specifically index.shtml only */
+
+.home-main {
+	width:100%;
+}
+
+.column {
+	width: 33.333333333333333%;
+	float: left;
+	height: 135px;
+	border-bottom: 1px solid white;
+	box-sizing: border-box;
+}
+
+.column h3 {
+	color: white;
+	text-align: center;
+	padding-top: 3px;
 }
 
 .centered-h3 {
@@ -106,67 +148,6 @@ nav a:hover {
 
 }
 
-#pizza {
-	color: #FF0000;
-}
-
-#picture {
-	width: 100%;
-	height: 560px;
-	background-image: url(../img/pizza-oven.jpg);
-	background-position: center bottom;
-}
-
-.home-main {
-	width:100%;
-}
-.column {
-	width: 33.333333333333333%;
-	float: left;
-	height: 135px;
-	border-bottom: 1px solid white;
-	box-sizing: border-box;
-}
-
-.food span {
-	display: block;
-}
-
-#left {
-	background: #FF2C00;
-	color: white;
-	text-align: center;
-}
-
-.column h3 {
-	color: white;
-	text-align: center;
-	padding-top: 3px;
-}
-
-#right {
-	background: #84E900;
-}
-
-
-#contact-info li,
-#contact-info a {
-	color: black;
-	padding: 0px;
-	display: block;
-}
-
-#contact-info a:last-child:hover {
-	color: #D8AA03;
-}
-#contact-info {
-	width: 100%;
-	text-align: center;
-	padding: 0;
-}
-
-
-
 .column h4 {
 	padding-top: 10px;
 	font-size: 1.5em;
@@ -175,82 +156,12 @@ nav a:hover {
 
 }
 
+/* specifically menu.shtml only */
 
-
-#middle {
-	background: #0776A0;
+.food span {
+	display: block;
+	font-size: 1.1em;
 }
-
-footer {
-	background: black;
-}
-
-footer p {
-	color: white;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-}
-
-.bottom-pic {
-	width: 100%;
-	height: 345px;
-	background-repeat: no-repeat; 
-	background-size: cover;
-}
-
-.story-impact {
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: justify;
-}
-
-.story-impact h4 {
-	padding-bottom: 10px;
-}
-
-.story-impact h5 {
-	font-size: 1.2em;
-	padding-left: 15px;
-	padding-right: 15px;
-	line-height: 130%;
-}
-
-#best {
-	color: #D8AA03;
-}
-
-#green {
-	color: #34D800;
-}
-
-.bigwords {
-	font-size: 1.4em;
-
-}
-
-.story-impact h5:last-child {
-	padding-bottom: 10px;
-}
-
-#small-pizza {
-	font-size: 1em;
-}
-
-#med-pizza {
-	font-size: 1.3em;
-}
-
-#big-pizza {
-	font-size: 1.6em;
-}
-
-#custom {
-	text-align: center;
-	color: #D8AA03;
-}
-
-
 
 .food {
 	padding-bottom: 10px;
@@ -280,28 +191,91 @@ dd,
 	padding-left: 10px;
 }
 
-.food span {
-	font-size: 1.1em;
-}
 .pricing {
 	padding-bottom: 20px;
 	padding-left: 10px;
 }
 
-/* Colorful menu blocks */
+/* specifically about.shtml only */
 
-#meatpies {
+.story-impact {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.story-impact h4 {
+	padding-bottom: 10px;
+}
+
+.story-impact h5 {
+	font-size: 1.2em;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 130%;
+}
+
+.story-impact h5:last-child {
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+/* Specialized font sizes */
+
+#small-pizza {
+	font-size: 1em;
+}
+
+#med-pizza {
+	font-size: 1.3em;
+}
+
+#big-pizza {
+	font-size: 1.6em;
+}
+
+.bigwords {
+	font-size: 1.4em;
+
+}
+
+/* Colorful blocks and pieces of text */
+
+#meatpies,
+#left {
 	background: #FF2C00;
 }
 
-#vegpies {
+#vegpies,
+#green {
 	background: #34D800;
 }
 
-#drinks {
+#drinks,
+#middle {
 	background: #0776A0;
 }
 
 #dessert {
 	background: #FF8500;
 }
+
+.purple {
+	color: #39275B;
+}
+
+#right {
+	background: #84E900;
+}
+
+#pizza {
+	color: #FF0000;
+}
+
+nav a:hover,
+#contact-info a:last-child:hover,
+#best,
+.story-impact h5:last-child {
+ 	color: #D8AA03;
+ }
