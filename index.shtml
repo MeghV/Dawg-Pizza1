@@ -28,9 +28,7 @@
 			</div>
 		</main>
 		<img src="img/pizza1.jpg" class="bottom-pic">
-		<footer>
-			<h3>&copy; 2013 Dawg Pizza Inc.</h3>
-		</footer>
+		<!--#include virtual="inc/footer.html"-->
 	</div>
 </body>
 </html>

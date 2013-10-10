@@ -57,9 +57,7 @@
     		<h5>Ricotta Cheese Cake</h5><span class="pricing">($10)</span>
 		</section>
 		<img src="img/pizza-order.jpg" class="bottom-pic">
-		<footer>
-			<h3>&copy; 2013 Dawg Pizza Inc.</h3>
-		</footer>
+		<!--#include virtual="inc/footer.html"-->
 	</div>
 </body>
 </html>
