@@ -217,7 +217,6 @@ dd,
 
 .story-impact h5:last-child {
 	padding-bottom: 10px;
-	text-align: center;
 	font-size: 1.4em;
 }
 
@@ -247,11 +246,13 @@ dd,
 	background: #FF2C00;
 }
 
-#vegpies,
-#green {
+#vegpies {
 	background: #34D800;
 }
 
+#green {
+	color: #34D800;
+}
 #drinks,
 #middle {
 	background: #0776A0;
@@ -275,7 +276,6 @@ dd,
 
 nav a:hover,
 #contact-info a:last-child:hover,
-#best,
-.story-impact h5:last-child {
+#best {
  	color: #D8AA03;
  }
