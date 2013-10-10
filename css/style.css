@@ -3,13 +3,19 @@
 html {
 	font-family: 'Oswald', sans-serif;
 }
-div {
+
+body {
+	background-image: url(../img/vertical_cloth.png);
+}
+
+.main-content {
 	width: 60%;
 	margin: 15px auto;
-	-webkit-box-shadow: 0px 0px 22px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    0px 0px 22px rgba(50, 50, 50, 0.75);
-	box-shadow:         0px 0px 22px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: 0px 0px 20px rgba(235, 235, 235, 0.75);
+	-moz-box-shadow:    0px 0px 20px rgba(235, 235, 235, 0.75);
+	box-shadow:         0px 0px 20px rgba(235, 235, 235, 0.75);
 	max-width: 1006px;
+	background: white;
 }
 
 #logo {
@@ -38,7 +44,7 @@ nav ul {
 	background:black;
 }
 
-nav li {
+ul li {
 	list-style: none;
 	color: white;
 	font-size: 2em;
@@ -48,7 +54,7 @@ nav li {
 }
 
 
-nav a {
+ul a {
 	display: inline-block;
 	color: white;
 	text-decoration: none;
@@ -58,4 +64,235 @@ nav a {
 
 nav a:hover {
 	color: #D8AA03;
-};
+}
+
+.centered-h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+#pizza {
+	color: #FF0000;
+}
+
+#picture {
+	width: 100%;
+	height: 560px;
+	background-image: url(../img/pizza-oven.jpg);
+	background-position: center bottom;
+}
+
+.home-main {
+	width:100%;
+}
+.column {
+	width: 33.333333333333333%;
+	float: left;
+	height: 135px;
+	border-bottom: 1px solid white;
+	box-sizing: border-box;
+}
+
+.food span {
+	display: block;
+}
+
+#left {
+	background: #FF2C00;
+	color: white;
+	text-align: center;
+}
+
+.column h3 {
+	color: white;
+	text-align: center;
+	padding-top: 3px;
+}
+
+#mid {
+	background: #84E900;
+}
+
+h3 {
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 2.5em;
+}
+#contact-info li,
+#contact-info a {
+	color: black;
+	text-decoration: none;
+	padding: 0px;
+}
+
+#contact-info a:last-child:hover {
+	color: #D8AA03;
+}
+#contact-info {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+address {
+	font-size: 1.5em;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: black;
+	text-align: left;
+}
+
+.column h4 {
+	padding-top: 10px;
+	font-size: 1.5em;
+	color: black;
+	text-align: center;
+
+}
+
+#mid a {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+#right {
+	background: #0776A0;
+}
+
+footer {
+	background: black;
+	border: none;
+}
+
+footer h3 {
+	color: white;
+	font-size: 1.4em;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.bottom-pic {
+	width: 100%;
+	height: 345px;
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.story-impact {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.story-impact h4 {
+	padding-bottom: 10px;
+}
+
+.story-impact h5 {
+	font-size: 1.2em;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 130%;
+}
+
+#best {
+	color: #D8AA03;
+}
+
+#green {
+	color: #34D800;
+}
+
+.bigwords {
+	font-size: 1.4em;
+
+}
+
+.story-impact h5:last-child {
+	padding-bottom: 10px;
+}
+
+#small-pizza {
+	font-size: 1em;
+}
+
+#med-pizza {
+	font-size: 1.3em;
+}
+
+#big-pizza {
+	font-size: 1.6em;
+}
+
+#custom {
+	text-align: center;
+	font-size: 1.4em;
+	color: #D8AA03;
+}
+
+#meatpies {
+	background: #FF2C00;
+}
+
+.food {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+}
+
+.food h4 {
+	padding-bottom: 10px;
+}
+
+dl,
+.food h5 {
+	font-size: 1.1em;
+	padding-left: 10px;
+	line-height: 140%;
+}
+
+dt,
+.pricing {
+	color: black;
+}
+
+dd,
+.food h5 {
+	padding-left: 10px;
+}
+
+.food span {
+	font-size: 1.1em;
+}
+.pricing {
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+#vegpies {
+	background: #34D800;
+}
+
+#drinks {
+	background: #0776A0;
+}
+
+#dessert {
+	background: #FF8500;
+}
