@@ -5,22 +5,7 @@
 </head>
 <body>
 	<div class="main-content">
-		<header>
-			<a href="index.html"><img src="img/logo.png" alt="Dawg Pizza logo" id="logo" class="pull-left"></a>
-			<h1><span class="purple">DAWG</span> PIZZA</h1>
-			<nav>
-				<ul>
-					<li><a href="index.shtml">HOME</a></li>
-					<li><a href="menu.shtml">MENU</a></li>
-					<li><a href="about.shtml">ABOUT US</a></li>
-				</ul>
-			</nav>
-		</header>
-		<ul id="contact-info">
-			<li>Call us for delivery: 206-555-1212</li><br>
-			<li><a href="mailto:dawgpizzaseattle@gmail.com">dawgpizzaseattle@gmail.com</a></li>
-		</ul>
-		<hr>
+		<!--#include virtual="inc/top-info.html"-->
 		<h3 class="centered-h3">AWESOME wood-fired <span id="pizza">pizza</span> with fresh ingredients baked to order. <br>Come in and eat, or call us for delivery!</h3>
 		<main class="home-main">
 			<div id="left" class="column">

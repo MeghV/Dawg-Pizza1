@@ -5,22 +5,7 @@
 </head>
 <body>
 	<div class="main-content">
-		<header>
-			<a href="index.html"><img src="img/logo.png" alt="Dawg Pizza logo" id="logo" class="pull-left"></a>
-			<h1><span class="purple">DAWG</span> PIZZA</h1>
-			<nav>
-				<ul>
-					<li><a href="index.shtml">HOME</a></li>
-					<li><a href="menu.shtml">MENU</a></li>
-					<li><a href="about.shtml">ABOUT US</a></li>
-				</ul>
-			</nav>
-		</header>
-		<ul id="contact-info">
-			<li>Call us for delivery: 206-555-1212</li><br>
-			<li><a href="mailto:dawgpizzaseattle@gmail.com">dawgpizzaseattle@gmail.com</a></li>
-		</ul>
-		<hr>
+		<!--#include virtual="inc/top-info.html"-->
 		<main class="story-impact">
 			<h4>Our Story:</h4>
 			<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dawg Pizza was started in 2013 with one simple goal: to get the students of the University of Washington to eat our pizza for every single meal. Well, maybe not every single meal, but most of them anyway. Cold pizza is really good for breakfast. And who can deny that pizza for lunch is really tasty? And when you've had a long day of classes and you're hungry, why not order a pizza for dinner too? And what should you do when you get hungry during that late-night study session? Order a pizza! That's where we come in.</h5>
