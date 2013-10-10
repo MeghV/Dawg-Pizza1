@@ -34,7 +34,7 @@
 			<h4>Vegetarian Pies:</h4>
 			<dl>
 				<dt>Margherita</dt>
-            	<dd>Mozzarella, Basil, Salt on an Olive Oil Base.</dd><span class="pricing">$10/$13/$16</span>
+            	<dd>Mozzarella, Basil, Salt on an Olive Oil Base.</dd><p class="pricing">$10/$13/$16</p>
         		<dt>Veggie Madness</dt>
             	<dd>Mushroom, Black Olive, Onions, Roasted Garlic, Squash and Roasted Eggplant on our Spicy Tomato Sauce.</dd><span class="pricing">$11/$14/$17</span>
        			<dt>Forest Floor</dt>
