@@ -14,20 +14,19 @@
 					4306 University Way NE <br>
 					Seattle, WA <br>
 					98105
-				</a>
-				</address>
+				</a></address>
 			</div>	
 			<div id="right" class="column">
-				<h3>Hours
-					<h4>Monday - Saturday</h4>
-					<h4>10am - 11pm</h4>
+				<h3>Hours</h3>
+				<h4>Monday - Saturday</h4>
+				<h4>10am - 11pm</h4>
 			</div>
 			<div id="mid" class="column">
 				<h3>Tweet at us!</h3>
 				<h4><a href="https://twitter.com/DawgPizzaSea" target="_blank">@DawgPizzaSea</a></h4>
 			</div>
 		</main>
-		<img src="img/pizza1.jpg" class="bottom-pic">
+		<img src="img/pizza1.jpg" class="bottom-pic" alt="Picture of a pizza">
 		<!--#include virtual="inc/footer.html"-->
 	</div>
 </body>
