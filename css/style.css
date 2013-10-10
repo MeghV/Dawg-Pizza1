@@ -136,6 +136,7 @@ h4 {
 }
 #contact-info li,
 #contact-info a {
+	color: black;
 	padding: 0px;
 	display: block;
 }
