@@ -10,9 +10,9 @@
 			<h1><span class="purple">DAWG</span> PIZZA</h1>
 			<nav>
 				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="menu.html">MENU</a></li>
-					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="index.shtml">HOME</a></li>
+					<li><a href="menu.shtml">MENU</a></li>
+					<li><a href="about.shtml">ABOUT US</a></li>
 				</ul>
 			</nav>
 		</header>
