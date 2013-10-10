@@ -19,7 +19,7 @@
 			<h4>Meat Pies:</h4>
 			<dl>
 				<dt>Classic Pepperoni</dt>
-            	<dd>Pepperoni and Mozzarella on our Spicy Tomato Sauce.</dd><span class="pricing">$10/$13/$16</span>
+            	<dd>Pepperoni and Mozzarella on our Spicy Tomato Sauce. <br><span class="pricing">$10/$13/$16</span></dd>
         		<dt>The Hawaiian</dt>
             	<dd>Canadian Bacon and Pineapple with Mozzarella on a rich Tomato Sauce.</dd><span class="pricing">$12/$14/$17</span>
        			<dt>Duck, Duck, Goose</dt>
