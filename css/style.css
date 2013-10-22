@@ -52,6 +52,10 @@ a {
 	color: white;
 }
 
+.active {
+	color: #0776A0;
+	padding: 0 60px;
+}
 footer {
 	position: fixed;
 	background: black;
@@ -367,6 +371,8 @@ nav a:hover,
 		font-size: 1.7em;
 	}
 }
+
+/* Media queries */
 
 @media screen and (min-width: 769px) {
 	.main-content {
