@@ -1,12 +1,31 @@
 <!doctype html>
 <html>
 <head>
-	<!--#include virtual="inc/header.html"-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dawg Pizza - Menu</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon_.ico">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="main-content">
-		<!--#include virtual="inc/top-info.html"-->
-
+	<div class="main-content" itemscope itemtype="http://schema.org/Restaurant">
+		<header>
+			<div id="header-pic">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+				</ul>
+			</nav>
+		</header>
+		<ul id="contact-info" itemprop="contactPoints" itemscope itemtype="http://schema.org/ContactPoint">
+			<li itemprop="telephone">Call us for delivery: 206-555-1212</li>
+			<li itemprop="email"><a href="mailto:dawgpizzaseattle@gmail.com">dawgpizzaseattle@gmail.com</a></li>
+		</ul>
+		<hr>
 		<!-- used &nbsp; because I didn't use pre tags -->
 		<main class="story-impact">
 			<h4>Our Story:</h4>
@@ -20,7 +39,9 @@
 			<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We love the environment, and we take extra steps to reduce our ecological footprint. For example, we collect and burn only naturally fallen wood from happy trees located within 100 miles of the restaurant. All our ingredients are fair-trade, organic, and residents of Washington State. Our meats come from animals that were named, raised in the ranchers' homes as if they were their children, and educated in the finest animal universities. The wheat for our dough is crushed by hand using a mortar and pestle. Our pizza boxes are made from recycled exam Blue Books and are guaranteed to decompose within seconds of finishing your pizza. We deliver using only rodent-powered vehicles and we all bike to work. We love the <span class="bigwords" id="green">ENVIRONMENT</span>!</h5>
 		</main>
 		<img src="img/pizza-oven.jpg" class="bottom-pic" alt="Pizza near an open fire oven">
-		<!--#include virtual="inc/footer.html"-->
+		<footer>
+			<p class="bigwords">&copy; 2013 Dawg Pizza Inc.</p>
+		</footer>
 	</div>
 </body>
 </html>

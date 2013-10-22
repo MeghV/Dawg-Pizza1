@@ -1,11 +1,31 @@
 <!doctype html>
 <html>
 <head>
-	<!--#include virtual="inc/header.html"-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dawg Pizza - Menu</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon_.ico">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="main-content">
-		<!--#include virtual="inc/top-info.html"-->
+	<div class="main-content" itemscope itemtype="http://schema.org/Restaurant">
+		<header>
+			<div id="header-pic">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+				</ul>
+			</nav>
+		</header>
+		<ul id="contact-info" itemprop="contactPoints" itemscope itemtype="http://schema.org/ContactPoint">
+			<li itemprop="telephone">Call us for delivery: 206-555-1212</li>
+			<li itemprop="email"><a href="mailto:dawgpizzaseattle@gmail.com">dawgpizzaseattle@gmail.com</a></li>
+		</ul>
+		<hr>
 		<main class="story-impact"> 
 			<h4>Pizzas:</h4>
 			<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes:</h5>
@@ -15,7 +35,7 @@
 		    <br>
 			<h5 id="custom">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</h5>
 		</main>
-		<section id="meatpies" class="food">
+		<section id="meatpies" class="food pizzas">
 			<h4>Meat Pies:</h4>
 			<!-- used dictionary to define menu items and pricing -->
 			<dl>
@@ -31,7 +51,7 @@
             	<dd>Pepperoni, Bacon, Canadian Bacon, Chicken, Duck, Goose, and Ground Beef with Smoked Mozzarella on our Spicy Tomato Sauce. Add Venison or Elk for an extra $2!<span class="pricing">$15/$19/$23</span></dd>
 			</dl>
 		</section>
-		<section id="vegpies" class="food">
+		<section id="vegpies" class="food pizzas">
 			<h4>Vegetarian Pies:</h4>
 			<!-- used dictionary to define menu items and pricing -->
 			<dl>
@@ -62,7 +82,9 @@
     		<h5>Ricotta Cheese Cake</h5><span class="pricing">($10)</span>
 		</section>
 		<img src="img/pizza-order.jpg" class="bottom-pic" alt="Sign that says 'Order'">
-		<!--#include virtual="inc/footer.html"-->
+		<footer>
+			<p class="bigwords">&copy; 2013 Dawg Pizza Inc.</p>
+		</footer>
 	</div>
 </body>
 </html>

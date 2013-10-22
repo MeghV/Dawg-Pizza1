@@ -1,5 +1,21 @@
 @import url('reset.css');
 
+
+/* Animations */
+
+@keyframes bounce {
+	0% {background-position: center}
+	33% {background-position: right center}
+	66% {background-position: left center}
+	99% {background-position: center}
+}
+
+@-webkit-keyframes bounce {
+	0% {background-position: center}
+	33% {background-position: right center}
+	66% {background-position: left center}
+	99% {background-position: center}
+}
 /* General styles */
 
 html {
@@ -8,6 +24,7 @@ html {
 
 body {
 	background-image: url(../img/vertical_cloth.png);
+	font-size: 16px;
 }
 
 
@@ -36,7 +53,18 @@ a {
 }
 
 footer {
+	position: fixed;
 	background: black;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: .7;
+	text-align: center;
+	font-size: .8em;
+}
+
+footer:hover {
+	opacity: 1;
 }
 
 address {
@@ -50,10 +78,14 @@ address {
 }
 
 nav {
+	width: 100%;
+	position: relative;
 	text-align: center;
 }
 
 nav ul {
+	padding: 0;
+	margin: 0 auto;
 	background:black;
 }
 
@@ -65,6 +97,9 @@ ul li {
 	padding: 0 50px;
 }
 
+iframe {
+	width: 100%;
+}
 ul a {
 	display: inline-block;
 	color: white;
@@ -93,8 +128,22 @@ footer p {
 
 /* Main div styling */
 
+#header-pic {
+		background-image: url(../img/logo.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 180px;
+		width: 100%;
+		background-position: center;
+}
+
+#header-pic:hover {
+	animation: bounce 2s 1;
+	-webkit-animation: bounce 2s 1;
+}
 .main-content {
 	width: 60%;
+	max-width: 1280px; 
 	margin: 15px auto;
 	-webkit-box-shadow: 0px 0px 20px rgba(235, 235, 235, 0.75);
 	-moz-box-shadow:    0px 0px 20px rgba(235, 235, 235, 0.75);
@@ -148,6 +197,7 @@ footer p {
 
 }
 
+
 .column h4 {
 	padding-top: 10px;
 	font-size: 1.5em;
@@ -156,8 +206,17 @@ footer p {
 
 }
 
+.column address {
+	text-align: center;
+}
 /* specifically menu.shtml only */
 
+.pizzas {
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	height: 715px;
+}
 .food span {
 	display: block;
 	font-size: 1.1em;
@@ -278,3 +337,59 @@ nav a:hover,
 #best {
  	color: #D8AA03;
  }
+
+@media screen and (max-width:768px) {
+	.main-content {
+		width: 98%;
+	}
+
+	body {
+		font-size: 18px;
+	}
+
+	.column {
+		width: 100%;
+	}
+
+	nav ul li,
+	nav ul li a {
+		display: block;
+		padding: 2px;
+	}
+
+	.pizzas {
+		width: 100%;
+		height: 675px;
+		clear: both;
+	}
+
+	.food h4 {
+		font-size: 1.7em;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.main-content {
+		width: 95%;
+	}
+
+	address {
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.main-content {
+		width: 90%;
+	}
+
+	.pizzas {
+		height: 650px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	#header-pic {
+		height: 200px;
+	}	
+}
