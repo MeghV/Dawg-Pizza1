@@ -342,6 +342,8 @@ nav a:hover,
  	color: #D8AA03;
  }
 
+/* Media queries */
+
 @media screen and (max-width:768px) {
 	.main-content {
 		width: 98%;
@@ -356,7 +358,8 @@ nav a:hover,
 	}
 
 	nav ul li,
-	nav ul li a {
+	nav ul li a,
+	.active {
 		display: block;
 		padding: 2px;
 	}
@@ -372,7 +375,6 @@ nav a:hover,
 	}
 }
 
-/* Media queries */
 
 @media screen and (min-width: 769px) {
 	.main-content {
